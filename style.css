@@ -187,3 +187,16 @@ ul {
 .sign-up.white-border {
   border: 2px solid #f9faf8;
 }
+
+/* ------ */
+/* Footer */
+/* ------ */
+.footer {
+  background: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 40px;
+}
