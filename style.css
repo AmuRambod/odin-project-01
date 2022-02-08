@@ -36,6 +36,16 @@ ul {
   background: #1f2937;
   display: flex;
   gap: 5%;
+  min-height: 250px;
+}
+
+/* just to add a bit of top-bottom padding */
+.section.sec-one {
+  padding: 80px 16%;
+}
+
+.hero {
+  flex: 1;
 }
 
 .hero-main {
@@ -48,15 +58,26 @@ ul {
 .hero-secondary {
   color: #e5e7eb;
   font-size: 18px;
+  margin: 10px 0;
 }
 
 .sign-up {
   background: #3882f6;
   color: #f9faf8;
   border: transparent;
+  font-size: 20px;
+  padding: 5px 35px;
+  border-radius: 8px;
 }
 
 .hero-img {
   background: gray;
   width: 100%;
+  flex: 1;
+  /* *** this part is for the placeholder text *** */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* *** */
 }
